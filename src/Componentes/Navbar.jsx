@@ -1,5 +1,5 @@
-import { AppBar, Toolbar, Button} from "@mui/material";
-import { useState } from "react";
+import { AppBar, Toolbar, Button, Typography } from "@mui/material";
+import { useState } from "react"; 
 
 
 const Navbar = ({ menuItems }) => {
@@ -16,11 +16,10 @@ const Navbar = ({ menuItems }) => {
                   return <Button key={index} color='inherit' onClick={handleClick}>{item.text} </Button>
                   })
                 }
-            
-
+                <h2 color='inherit'> ENRAIZATE </h2>
             </Toolbar>
-    
         </AppBar>
+
    
     </> );
 }

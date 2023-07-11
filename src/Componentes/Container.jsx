@@ -1,6 +1,7 @@
 import { Container } from "@mui/material";
 import Navbar from "./Navbar";
 
+
 const ContainerComponent = () => {
     
     const menuItems = [
@@ -14,7 +15,7 @@ const ContainerComponent = () => {
             ]
         },
         {
-            text: 'elementos',
+            text: 'Informacion',
             link: '/elementos',
             subMenuItems: [
                 { text: 'elemento 1', link: '/elementos/1' },
